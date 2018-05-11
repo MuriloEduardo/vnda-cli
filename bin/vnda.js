@@ -10,11 +10,11 @@ const client = gitlab.createPromise({
 
 const [,, ...args] = process.argv;
 
-client.repositoryBranches.list({id: 4786645})
-    .then(function (repository) {
-        console.log(repository);
+client.repositoryFiles.list({file_path: 'gulpfile.js', ref: 'master'})
+    .then(files => {
+        console.log(files);
     })
-    .catch(function (err) {
+    .catch(err => {
         throw err;
     });
  
