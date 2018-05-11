@@ -1,0 +1,11 @@
+{
+  "name": "vnda-cli",
+  "version": "1.0.0",
+  "description": "Gerenciador de projetos Vnda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Murilo Eduardo dos Santos",
+  "license": "ISC"
+}
