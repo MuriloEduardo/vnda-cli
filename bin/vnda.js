@@ -10,7 +10,7 @@ const client = gitlab.createPromise({
 
 const [,, ...args] = process.argv;
 
-client.repositoryBranches.list({id: 'front'})
+client.repositoryBranches.list({id: 4786645})
     .then(function (repository) {
         console.log(repository);
     })
