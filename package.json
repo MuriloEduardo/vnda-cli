@@ -1,11 +1,11 @@
 {
   "name": "vnda-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gerenciador de projetos Vnda",
   "bin": {
     "vnda": "bin/vnda.js"
   },
-  "main" : "lib/index.js",
+  "main": "lib/index.js",
   "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/MuriloEduardo/vnda-cli/issues"
   },
-  "homepage": "https://github.com/MuriloEduardo/vnda-cli#readme"
+  "homepage": "https://github.com/MuriloEduardo/vnda-cli#readme",
+  "dependencies": {
+    "node-gitlab": "^1.6.0"
+  }
 }
