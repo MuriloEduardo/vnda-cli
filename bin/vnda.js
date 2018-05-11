@@ -4,7 +4,7 @@ const lib = require('../lib/index.js');
 const gitlab = require('node-gitlab');
 
 const client = gitlab.createPromise({
-    api: 'https://gitlab.com/api/v4',
+    api: 'https://gitlab.com/api/v3',
     privateToken: '4ScWD4byz8hNZYirX28u'
 });
 
