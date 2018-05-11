@@ -1,1 +1,0 @@
-console.log('Gerenciador de projetos Vnda');
