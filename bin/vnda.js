@@ -1,6 +1,7 @@
 #!/usr/bin/env node
  
-var lib= require('../lib/index.js');
-var greeting = lib.sayHello('Bret');
+const lib = require('../lib/index.js');
+const greeting = lib.sayHello('Bret');
+const [,, ...args] = process.argv;
  
-console.log(greeting);
+console.log(args);
