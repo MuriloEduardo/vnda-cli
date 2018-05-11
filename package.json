@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Murilo Eduardo dos Santos",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuriloEduardo/vnda-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MuriloEduardo/vnda-cli/issues"
+  },
+  "homepage": "https://github.com/MuriloEduardo/vnda-cli#readme"
 }
