@@ -3,7 +3,7 @@
 const lib = require('../lib/index.js');
 const gitlab = require('node-gitlab');
 
-const client = gitlab.create({
+const client = gitlab.createPromise({
     api: 'https://gitlab.com/api/v4',
     privateToken: '4ScWD4byz8hNZYirX28u'
 });
@@ -11,8 +11,8 @@ const client = gitlab.create({
 const [,, ...args] = process.argv;
 
 client.repositoryBranches.list({id: 'front'})
-    .then(function (milestones) {
-        console.log(milestones);
+    .then(function (repository) {
+        console.log(repository);
     })
     .catch(function (err) {
         throw err;
